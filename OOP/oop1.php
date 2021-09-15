@@ -5,7 +5,7 @@ class kucing
 {
     //membuat property atau atributes
     public $warna = "coklat";
-    public $jumlahkaki = 4;
+        public $jumlahkaki = 4;
     public $jenisBulu = "panjang";
     public $makanandfavorite = "Ikan pindang";
 
@@ -21,7 +21,7 @@ class kucing
 }
 
 //mebuat object (inisiasi object)
-$kucing1 = new kucing();
+              $kucing1 = new kucing();
 echo "warna kucing: " . $kucing->warna . "<br>";
 echo "sifat kucing: " . $kucing->bersuara() . "<hr>";
 
